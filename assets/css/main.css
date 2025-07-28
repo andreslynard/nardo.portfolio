@@ -818,6 +818,12 @@ section,
     height: auto; /* Maintain aspect ratio */
     max-height: 50vh; /* Prevent too tall */
   }
+
+    .portfolio-details .swiper-slide video {
+    width: 100%; /* Full width on mobile */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 50vh; /* Prevent too tall */
+  }
 }
 
 @media (max-width: 575px) {
@@ -1064,7 +1070,6 @@ section,
     justify-content: center;
   }
 }
-}
 
 .contact .info-item:hover i {
   background: var(--accent-color);
@@ -1074,6 +1079,5 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
+/*.starter-section {
   /* Add your styles here */
-}
