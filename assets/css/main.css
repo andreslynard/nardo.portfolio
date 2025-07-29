@@ -777,6 +777,15 @@ section,
   align-items: center;
 }
 
+.portfolio-details .swiper-wrapper .swiper-slide-image1 {
+  height: auto;
+  align-items: center;
+  width: 1000px; /* Your desired fixed width */
+  height: 700px; /* Your desired fixed height */
+  object-fit: scale-down; /* Crop to fit */
+}
+
+
 .portfolio-details .swiper-button-prev,
 .portfolio-details .swiper-button-next {
   width: 48px;
